@@ -24,7 +24,7 @@ class Hero{
         
     }
     void setname(char arr[]){
-        strcpy(this->name, arr);
+        name=arr;
     }
 
     void print(){
